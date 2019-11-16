@@ -17,9 +17,13 @@ Step to create connection
      salary double
    );
 6: build project using maven 
+       
        mvn clean install
+       
 7: run project through any IDE or by cammand line 
+
        java -jar target/cassandra-0.0.1-SNAPSHOT.jar
+
 8: create new entity in database using curl
   
       curl -X POST \
