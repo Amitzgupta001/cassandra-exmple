@@ -32,9 +32,9 @@ Step to create connection
  
  7: get entity by id
  
-   curl -X GET \
-    http://localhost:8080/person/1 \
-    -H 'Content-Type: application/json' 
+      curl -X GET \
+       http://localhost:8080/person/1 \
+       -H 'Content-Type: application/json' 
  
  8: delete entity by id
  
