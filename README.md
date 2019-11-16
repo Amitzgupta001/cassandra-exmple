@@ -12,7 +12,7 @@ Step to create connection
 
 4: create new keyspace :
 
-   CREATE KEYSPACE events WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 1};
+    CREATE KEYSPACE events WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 1};
 
 5: create table name people:
 
