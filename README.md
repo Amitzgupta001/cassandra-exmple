@@ -3,9 +3,13 @@ spring boot connection with cassandra
 
 Hi 
 Step to create connection
+
 1: Download cassandra http://cassandra.apache.org/download/
+
 2: Start cassandra by executing cassandra.sh {Linux} or cassandra.bat {Windows} in bin folder.
+
 3: open cqlsh.bat or cqlsh.sh in folder.
+
 4: create new keyspace :
 
    CREATE KEYSPACE events WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 1};
