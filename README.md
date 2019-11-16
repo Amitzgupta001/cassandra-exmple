@@ -16,8 +16,11 @@ Step to create connection
      last_name text,
      salary double
    );
-
-6: create new entity in database using curl
+6: build project using maven 
+       mvn clean install
+7: run project through any IDE or by cammand line 
+       java -jar target/cassandra-0.0.1-SNAPSHOT.jar
+8: create new entity in database using curl
   
       curl -X POST \
       http://localhost:8080/person/ \
@@ -30,25 +33,25 @@ Step to create connection
       "salary":54546
       }'
  
- 7: get entity by id
+ 9: get entity by id
  
       curl -X GET \
        http://localhost:8080/person/1 \
        -H 'Content-Type: application/json' 
  
- 8: delete entity by id
+ 10: delete entity by id
  
     curl -X DELETE \
     http://localhost:8080/person/43 \
     -H 'Accept: */*' \
     -H 'Content-Type: application/json'
  
- 9: get all person
+ 11: get all person
  
     curl -X GET \
     http://localhost:8080/person/ \
     -H 'Accept: */*' \
     -H 'Content-Type: application/json' 
  
- 10: Happy coding
+ 12: Happy coding
 
